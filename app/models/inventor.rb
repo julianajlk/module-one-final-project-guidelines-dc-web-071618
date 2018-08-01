@@ -1,4 +1,4 @@
 class Inventor < ActiveRecord::Base
-  has_many :collaborations
-  has_many :ideas, through: :collaborations
+  has_many :ideas
+  has_many :investments, through: :ideas
 end

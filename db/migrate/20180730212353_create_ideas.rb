@@ -3,6 +3,7 @@ class CreateIdeas < ActiveRecord::Migration[5.0]
     create_table :ideas do |t|
       t.string :name
       t.text :description
+      t.integer :inventor_id
     end
 
   end

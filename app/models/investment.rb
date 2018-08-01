@@ -1,4 +1,4 @@
 class Investment < ActiveRecord::Base
-  belongs_to :investors
-  belongs_to :ideas
+  belongs_to :investor
+  belongs_to :idea
 end

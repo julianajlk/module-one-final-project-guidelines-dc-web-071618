@@ -4,6 +4,7 @@ class CreateIdeas < ActiveRecord::Migration[5.0]
       t.string :name
       t.text :description
       t.integer :inventor_id
+      t.integer :investor_id
     end
 
   end
